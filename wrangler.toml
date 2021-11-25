@@ -4,3 +4,9 @@ compatibility_flags = []
 account_id = 'ebf1ae44399e99454f38475e6dc95c77'
 workers_dev = true
 compatibility_date = "2021-11-25"
+
+[build]
+command = "npm install && npm run build"
+
+[build.upload]
+format = "service-worker"
