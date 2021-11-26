@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dns": "^0.2.2",
+    "dns": "^0.2.2"
+  },
+  "devDependencies": {
     "esbuild": "^0.13.15"
   }
 }
