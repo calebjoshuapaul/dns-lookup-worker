@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "esbuild ./index.js --bundle --platform=node --target=node16.8 --format=esm --outdir=dist --banner:js='import { createRequire as topLevelCreateRequire } from \"module\";\n const require = topLevelCreateRequire(import.meta.url);'"
+    "build": "esbuild ./index.js --bundle --platform=node"
   },
   "author": "",
   "license": "ISC",

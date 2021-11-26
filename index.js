@@ -16,7 +16,7 @@ async function handleRequest(request) {
     return `address: ${address} family: IPv${family}`;
   });
 
-  return new Response(result, {
+  return new Response("result", {
     headers: { "content-type": "text/plain" },
   });
 }
