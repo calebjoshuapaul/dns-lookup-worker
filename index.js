@@ -1,4 +1,4 @@
-import dns from "dns";
+import * as dns from "dns";
 
 addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request));
